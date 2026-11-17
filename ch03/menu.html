@@ -21,8 +21,12 @@
       <h2>Coffee at JavaJam</h2>
       <dl>
         <dt><strong>Just Java</strong></dt>
-        <dd>Regular house blend, decaffeinated coffee, or flavor of the day.<br>
-          Endless Cup $3.50</dd>
+        <dd>Regular house blend, decaffeinated coffee, or flavor of the day.
+          <p id="myPrice">Price of the cup is 3.50</p>
+          <label for="myCupAmt">Endless Cup Price</label>
+          <input type="number" id="myCupAmt" value="3.50" step="0.01">
+          <button id="mySubmit">submit</button>
+        </dd>
 
         <dt><strong>Cafe au Lait</strong></dt>
         <dd>House blended coffee infused into a smooth, steamed milk.<br>
@@ -38,5 +42,6 @@
       <a href="mailto:djamalmiss@email.com">djamalmiss@email.com</a>
     </footer>
   </div>
+  <script src="javajam.js"></script>
 </body>
 </html>
